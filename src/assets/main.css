@@ -1,0 +1,43 @@
+@import './base.css';
+
+html, body, #app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%; /* Imposta la larghezza a 100% del contenitore */
+  box-sizing: border-box; /* Assicura che padding e bordi siano inclusi nelle dimensioni */
+  overflow-x: hidden; /* Evita eventuali scroll orizzontali */
+}
+
+body {
+  background-image: url("./IMG_2477.jpeg");
+  background-position: center;
+  background-size: cover;
+  
+  font-family: arsenica-variable, sans-serif !important;
+
+}
+
+#app {
+  margin: 0 auto;
+  padding: 2rem 2rem 0 2rem;
+  font-weight: normal;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a {
+  cursor: pointer;
+}
+
+.btn {
+  width: 100%;
+  background-color: #c2b590  !important;
+  margin-top: 2rem;
+}
+.btn:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Aggiungi un'ombra */
+  border-color: #999 !important; /* Cambia il colore del bordo */
+}
